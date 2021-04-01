@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:id="@+id/single_group">
+
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+    </group>
+
+    <group android:id="@+id/our_service">
+
+        <item
+            android:id="@+id/service"
+            android:icon="@drawable/ic_service"
+            android:title="Our Services" />
+    </group>
+
+
+    <group android:id="@+id/our_products">
+
+        <item
+            android:id="@+id/products"
+            android:icon="@drawable/ic_software_products"
+            android:title="Our Products" />
+
+    </group>
+    <group android:id="@+id/our_portfolio">
+        <item
+            android:id="@+id/portfolio"
+            android:icon="@drawable/ic_portfolio"
+            android:title="Portfolio" />
+
+    </group>
+
+    <group android:id="@+id/our_clients">
+        <item
+            android:id="@+id/clients"
+            android:icon="@drawable/ic_clients"
+            android:title="Clients" />
+
+    </group>
+
+    <group android:id="@+id/our_contact">
+
+        <item
+            android:id="@+id/Contact"
+            android:icon="@drawable/ic_contact"
+            android:title="Contact Us" />
+    </group>
+
+
+</menu>

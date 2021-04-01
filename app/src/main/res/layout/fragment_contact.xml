@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".Fragment.ContactFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:background="@drawable/foot_map"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/Contact_Slogan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/candal"
+                    android:gravity="center"
+                    android:text="ANYTIME IS PERFECT TO CONTACT US!"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:id="@+id/Phone_Num1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="5dp"
+                    android:drawableLeft="@drawable/ic_phone"
+                    android:fontFamily="@font/antic"
+                    android:text="+8801911-774866 "
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/Phone_Num2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="5dp"
+                    android:drawableLeft="@drawable/ic_phone"
+                    android:fontFamily="@font/antic"
+                    android:text="+8801736-212121"
+                    android:textSize="18sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="5dp"
+                    android:drawableLeft="@drawable/ic_baseline_alternate_email"
+                    android:fontFamily="@font/antic"
+                    android:text=" info@coder71.com"
+                    android:textSize="18sp" />
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                    android:fontFamily="@font/antic"
+                    android:text="@string/address" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-40dp"
+                    android:src="@drawable/cup" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:fontFamily="@font/antic"
+                    android:padding="5dp"
+                    android:text="Do you have a requirement where you think we can be of help?
+Let's have a cup of coffee together and discuss further! "
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/antic"
+                    android:paddingStart="3dp"
+                    android:text="Your Name"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/NameId"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/textview_bg"
+                    android:fontFamily="@font/antic"
+                    android:hint="Enter Name"
+                    android:padding="3dp"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/antic"
+                    android:paddingStart="3dp"
+                    android:text="Your Email"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/Email_Id"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/textview_bg"
+                    android:hint="Enter Email"
+                    android:fontFamily="@font/antic"
+                    android:padding="3dp"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/antic"
+                    android:paddingStart="3dp"
+                    android:text="Project Name"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/project_Id"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/textview_bg"
+                    android:fontFamily="@font/antic"
+                    android:hint="Enter Project Name"
+                    android:padding="3dp"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/antic"
+                    android:paddingStart="3dp"
+                    android:text="Project Requirements"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ProjectRequirementId"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/textview_bg"
+                    android:fontFamily="@font/antic"
+                    android:gravity="start"
+                    android:hint="Enter Project Requirements"
+                    android:padding="3dp"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp" />
+
+
+                <Button
+                    android:id="@+id/RequestBtnId"
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_style"
+                    android:fontFamily="@font/candal"
+                    android:text="Request For Quote"
+                    android:textColor="#fff" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

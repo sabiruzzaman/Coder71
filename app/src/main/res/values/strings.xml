@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Coder71 Ltd</string>
+
+    <string name="navigation_drawer_open"> Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="about_us">
+        Coder71 Ltd. is an established web development company delivering web development services of any complexity to clients worldwide. Being in IT business for over some years now we have a strong team of skilled experienced IT experts.
+        Our customers are companies of all sizes ranging from startups to large enterprises who realize that they need a professional internet solution to generate revenue streams,
+        establish communication channels or streamline business operations.
+    </string>
+
+    <string name="Short_AboutUs">
+    Coder71 Ltd. is an established web development company delivering web development services of any complexity to
+    clients worldwide. Being in IT business for over some years now we have a strong team of skilled experienced IT...
+</string>
+
+    <string name="address">
+        House# 31, Level# 3, Lane# 1, Block# B, Section# 06,
+        \nMirpur, Dhaka-1216, Bangladesh
+    </string>
+
+    <string-array name="Clients">
+        <item>Bangladesh Film Censor Board </item>
+        <item>Ambala News </item>
+        <item>Setara Farm</item>
+        <item>Premier Cement</item>
+        <item>Wristbands House</item>
+        <item>Emart</item>
+        <item>jessoreinfo</item>
+        <item>Azadbazar</item>
+        <item>Mypulse.com.bd</item>
+        <item>Ayozon</item>
+        <item>Aba</item>
+    </string-array>
+</resources>
