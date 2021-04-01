@@ -24,8 +24,6 @@ public class CorporateWebsiteFragment extends Fragment {
 
 
         View view = inflater.inflate(R.layout.fragment_portfolio_view, container, false);
-
-
         recyclerView = view.findViewById(R.id.TabLayoutListViewId);
 
 
